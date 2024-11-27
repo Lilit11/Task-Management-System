@@ -1,0 +1,85 @@
+
+.editTask {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.editTask h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.editTask form {
+    display: flex;
+    flex-direction: column;
+}
+
+.editTask input[type="text"],
+.editTask input[type="date"],
+.editTask select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.editTask button {
+    padding: 10px;
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.editTask button:hover {
+    background-color: #45a049; 
+
+}
+tasks.module.css
+css
+Copy code
+.task {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.taskText {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.taskStatus {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.taskDate {
+    font-size: 14px;
+    color: #999;
+}
+
+.task button {
+    padding: 8px 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
